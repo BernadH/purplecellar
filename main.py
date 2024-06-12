@@ -1,7 +1,7 @@
 import sqlite3
 from datetime import date, datetime, timedelta
 
-# Database initiation should be moved out of main.
+# Database initiation should be moved out of main and into startDatabase.py.
 
 # Connect to the database
 conn = sqlite3.connect('inventory.db')
